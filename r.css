@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #333; }
+a { text-decoration: none; color: inherit; }
+
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 10%; background: #f9f9f9; }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.logo span { color: #6c63ff; }
+.nav-links { list-style: none; display: flex; gap: 20px; }
+.nav-links li a { color: #333; transition: 0.3s; }
+.nav-links li a:hover { color: #6c63ff; }
+.btn { background: #6c63ff; color: #fff; padding: 10px 20px; border-radius: 25px; }
+.btn-outline { border: 2px solid #6c63ff; padding: 10px 20px; border-radius: 25px; color: #6c63ff; }
+.btn-outline:hover { background: #6c63ff; color: #fff; }
+
+.hero { display: flex; align-items: center; justify-content: space-between; padding: 50px 10%; }
+.hero-text { max-width: 50%; }
+.hero-text h3 { font-size: 1.5rem; margin-bottom: 10px; }
+.hero-text h2 { font-size: 2rem; margin-bottom: 20px; }
+.hero-text p { margin-bottom: 20px; }
+.hero-text .purple { color: #6c63ff; }
+.cta { display: flex; gap: 15px; margin-bottom: 20px; }
+.social-icons a { margin-right: 15px; color: #6c63ff; }
+
+.hero-img img { width: 300px; border-radius: 50%; border: 5px solid #6c63ff; }
+
+.section { padding: 50px 10%; }
+.section h2 { color: #6c63ff; margin-bottom: 20px; }
+.skills-list { display: flex; gap: 20px; flex-wrap: wrap; list-style: none; }
+.skills-list li { background: #f0f0f0; padding: 10px 15px; border-radius: 8px; }
+
+.card { background: #f9f9f9; padding: 20px; border-radius: 10px; margin: 20px 0; }
+
+.contact a { color: #6c63ff; }
+
+footer { text-align: center; padding: 20px; background: #f0f0f0; margin-top: 20px; }
